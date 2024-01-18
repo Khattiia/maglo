@@ -1,0 +1,181 @@
+.grayName {
+  color: var(--gray-02, #878787);
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-left: 20px;
+}
+
+.box {
+  display: flex;
+  padding: 20px 24px;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  background: var(--White, #fff);
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.1);
+  width: 352px;
+  height: 191px;
+}
+
+.balance {
+  display: flex;
+  width: 100%;
+  padding-bottom: 0px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--gray-06, #f3f3f3);
+  align-items: center;
+}
+
+.balance :first-child {
+  color: var(--Default-Black, #191919);
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+
+.balance :last-child {
+  color: var(--Secondary, #525256);
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.goalsGrid {
+  display: grid;
+  height: 128px;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+
+  height: 100%;
+}
+
+.goalsLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  height: 100%;
+}
+
+.target {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.targetGray {
+  color: var(--gray-02, #878787);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.blackMoney {
+  color: var(--Default-Black, #191919);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.goalsRight {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.eclipse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  height: 100%;
+}
+
+.eclipsePart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: -94px;
+  position: relative;
+}
+
+.eclipseGreen {
+  width: 109.255px;
+  height: 50px;
+  margin-bottom: 0;
+  position: absolute;
+}
+
+.eclipseWhite {
+  width: 128px;
+  height: 50px;
+  margin-bottom: 0;
+}
+
+.eclipseArrow {
+  position: absolute;
+  left: 56.002px;
+  top: -32.001px;
+  position: relative;
+  width: 25.997px;
+  height: 30.999px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.grayNumbers {
+  color: var(--gray-04, #d1d1d1);
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.blackNumbers {
+  color: var(--Default-Black, #191919);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.target {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  color: var(--Default-Black, #191919);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.goalNumbers {
+  display: flex;
+  width: 144px;
+  justify-content: space-between;
+  align-items: center;
+}

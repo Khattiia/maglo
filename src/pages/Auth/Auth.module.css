@@ -1,0 +1,189 @@
+:root {
+  user-select: none;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.header {
+  display: inline-flex;
+  margin: auto;
+  justify-content: center;
+  color: var(--Primary-color, #299d91);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 3.2px;
+  margin-bottom: 64px;
+}
+
+.header :first-child {
+  color: var(--Primary-color, #299d91);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 3.2px;
+}
+
+.label {
+  width: 342px;
+  height: 24px;
+  overflow: hidden;
+  color: var(--Black, #191d23);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.input {
+  display: flex;
+  width: 366px;
+  padding: 12px 16px;
+  align-items: flex-start;
+  border-radius: 8px;
+  border: 1px solid var(--gray-02, #4b5768);
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.passwordForgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  width: 400px;
+}
+
+.forgot {
+  color: var(--Primary-color, #299d91);
+  text-align: right;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  width: 162px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.option {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: var(--Black, #191d23);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.loginButton {
+  display: flex;
+  width: 400px;
+  height: 48px;
+  padding: 16px 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--Primary-color, #299d91);
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.midGray {
+  margin: 24px;
+  color: var(--gray-01, #999da3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  z-index: 10;
+}
+
+.google {
+  display: flex;
+  width: 400px;
+  height: 48px;
+  padding: 12px 69px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--gray-04, #e4e7eb);
+  border: none;
+  cursor: pointer;
+  color: var(--gray-02, #4b5768);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.create {
+  width: 400px;
+  height: 24px;
+  overflow: hidden;
+  color: var(--Primary-color, #299d91);
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.gmail {
+  background-color: transparent;
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  background-color: #299d91;
+  cursor: pointer;
+}
+
+.checkmarkClick {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  background-color: #b3b7be;
+  cursor: pointer;
+}

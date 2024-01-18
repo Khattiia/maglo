@@ -1,0 +1,38 @@
+.root {
+  margin-left: 350px;
+}
+.header {
+  display: flex;
+  width: 1160px;
+  padding: 20px 32px 20px 24px;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.search {
+  display: flex;
+  margin-left: 590px;
+}
+.arrows {
+  margin-left: 0;
+}
+
+.date {
+  color: var(--gray-03, #9f9f9f);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.chartBox {
+  display: flex;
+  width: 1104px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+

@@ -1,0 +1,181 @@
+.box {
+  display: flex;
+  padding: 16px 24px 40px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--White, #fff);
+  box-shadow: 0px 20px 25px 0px rgba(76, 103, 100, 0.1);
+  width: 1450px;
+margin-bottom: 5px;
+}
+
+.header {
+  display: flex;
+  width: 1450px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rectangleGreen {
+  width: 16px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--Primary-color, #299d91);
+}
+
+.rectangleGray {
+  width: 16px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--gray-05, #888888);
+}
+
+.monthlyComparison {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--Default-Black, #191919);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.week {
+  color: var(--Secondary, #525256);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.weeks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.horizontal li {
+  width: 48px;
+  color: var(--gray-03, #9f9f9f);
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+.vertical {
+  display: flex;
+  align-items: flex-end;
+  gap: 63px;
+  position: absolute;
+  right: 40px;
+  bottom: 510px;
+  left: 501px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.janWhite {
+  border-radius: 4px 4px 0px 0px;
+  background: var(--gray-05, #9f9f9f);
+  width: 16px;
+  height: 107px;
+}
+
+.janGreen {
+  border-radius: 4px 4px 0px 0px;
+  background: var(--Primary-color, #299d91);
+  width: 16px;
+  height: 137px;
+}
+
+.lines {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.month {
+  color: var(--gray-03, #9f9f9f);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 52px;
+}
+
+.febWhite {
+  width: 16px;
+  height: 81px;
+  border-radius: 4px 4px 0px 0px;
+  background: var(--gray-05, #9f9f9f);
+}
+
+.febGreen {
+  width: 16px;
+  height: 92px;
+  border-radius: 4px 4px 0px 0px;
+  background: var(--Primary-color, #299d91);
+}
+
+.white {
+  border-radius: 4px 4px 0px 0px;
+  width: 16px;
+
+  background: var(--gray-05, #9f9f9f);
+}
+
+.green {
+  border-radius: 4px 4px 0px 0px;
+  width: 16px;
+  background: var(--Primary-color, #299d91);
+}
+
+.chartBox {
+  display: flex;
+  width: 1104px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.grayName {
+  color: var(--gray-02, #878787);
+
+  /* Header 22-32 */
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 145.455% */
+}

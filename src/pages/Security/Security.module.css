@@ -1,0 +1,134 @@
+.root {
+  margin-left: 350px;
+}
+
+.header {
+  display: flex;
+  width: 1160px;
+  padding: 20px 32px 20px 24px;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.search {
+  display: flex;
+  margin-left: 590px;
+}
+.arrows {
+  margin-left: 0;
+}
+
+.date {
+  color: var(--gray-03, #9f9f9f);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.box {
+  display: inline-flex;
+  padding: 24px 32px 32px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  background: var(--White, #fff);
+  box-shadow: 0px 20px 25px 0px rgba(76, 103, 100, 0.1);
+  width: 1400px;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.description {
+  color: var(--Secondary, #525256);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.input {
+  display: flex;
+  padding: 16px 24px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--special-bg-3, rgba(255, 255, 255, 0.08));
+  width: 492px;
+}
+
+.button {
+  padding: 12px 24px;
+  gap: 4px;
+  border-radius: 4px;
+  background: var(--Primary-color, #299d91);
+  color: white;
+  height: 48px;
+  width: 192px;
+  margin-left: 0px;
+}
+
+.upload {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 8px;
+  border: 1px dashed var(--gray-03, #9f9f9f);
+}
+
+.upload img {
+  width: 36px;
+  height: 36px;
+}
+
+.upload {
+  color: var(--gray-03, #9f9f9f);
+  text-align: center;
+  width: 94px;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.rightSide :first-child {
+  color: var(--gray-01, #666);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
